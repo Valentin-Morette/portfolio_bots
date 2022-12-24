@@ -6,7 +6,18 @@
   --real-white: #ffffff;
 }
 
+@font-face {
+  font-family: "noto";
+  src: url(./assets/fonts/NotoSans-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: var(--discord-gray);
+  color: var(--discord-white);
+  font-family: noto;
 }
