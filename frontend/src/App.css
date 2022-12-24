@@ -1,6 +1,7 @@
 :root {
   --discord-gray: #36393f;
   --discord-black: #202225;
+  --discord-black2: #2f3136;
   --discord-blue: #5865f2;
   --discord-white: #b3b4b6;
   --real-white: #ffffff;
@@ -20,4 +21,60 @@ body {
   background-color: var(--discord-gray);
   color: var(--discord-white);
   font-family: noto;
+}
+
+h1 {
+  color: var(--real-white);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.global {
+  margin-top: 1rem;
+}
+
+.bot_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.bot_card {
+  width: 220px;
+  height: 280px;
+  background-color: var(--discord-black2);
+  border-radius: 18px;
+  box-shadow: 0 4px 6px var(--discord-black), 0 2px 4px var(--discord-black2);
+  transition: box-shadow 0.3s;
+}
+
+.bot_card:hover {
+  box-shadow: 0 10px 15px var(--discord-black), 0 4px 6px var(--discord-black2);
+}
+
+.bot_card > h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.bot_img {
+  width: 190px;
+  border-radius: 18px;
+  margin: 15px;
+}
+
+a {
+  color: var(--discord-white);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  .bot_list {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
