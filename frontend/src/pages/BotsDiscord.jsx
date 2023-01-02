@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BotCard from "../components/BotCard";
 import twitter from "../assets/img/twitter.png";
 import cw from "../assets/img/cw.png";
@@ -8,7 +9,9 @@ export default function BotsDiscord() {
     <div className="global">
       <h1>BotFolio Discord</h1>
       <div className="bot_list">
-        <BotCard img={bdm} name="BDM" />
+        <Link to="/bdm">
+          <BotCard img={bdm} name="BDM" />
+        </Link>
         <BotCard img={cw} name="CodeWarsStats" />
         <BotCard img={twitter} name="DiscordToTwitter" />
       </div>

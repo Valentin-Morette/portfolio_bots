@@ -17,6 +17,10 @@
   padding: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 body {
   background-color: var(--discord-gray);
   color: var(--discord-white);
@@ -27,7 +31,7 @@ h1 {
   color: var(--real-white);
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 0 0.5rem 2rem 0.5rem;
 }
 
 .global {
@@ -72,9 +76,86 @@ a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 600px) {
+.imgTuto {
+  border-radius: 18px;
+  box-shadow: 0 4px 6px var(--discord-black), 0 2px 4px var(--discord-black2);
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+.descriptionsBots {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.descriptions {
+  margin: 0 1rem 0 1.5rem;
+}
+
+.firstDesc {
+  margin-top: 2rem;
+}
+
+.descAndCommandes {
+  display: flex;
+  flex-direction: column;
+}
+
+.listeCommandes {
+  margin: 0.5rem 1rem 0rem 1.8rem;
+}
+
+.listeCommandes > li {
+  margin-bottom: 0.5rem;
+}
+
+.listeCommandes > li:last-child {
+  margin-bottom: 0rem;
+}
+
+.icons {
+  font-size: 3.5rem;
+}
+
+.iconsInstall {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 650px) {
   .bot_list {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .descAndCommandes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .blocDC {
+    width: 35%;
+  }
+
+  .descriptions {
+    margin: 0;
+  }
+
+  .descriptionsBots {
+    margin: 3rem 0 1rem 0;
+    text-align: center;
+  }
+
+  .listeCommandes {
+    margin: 0.5rem 0 0 0;
+  }
+
+  .iconsInstall {
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 2rem;
   }
 }
