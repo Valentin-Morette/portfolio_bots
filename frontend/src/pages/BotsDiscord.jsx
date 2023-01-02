@@ -12,7 +12,9 @@ export default function BotsDiscord() {
         <Link to="/bdm">
           <BotCard img={bdm} name="BDM" />
         </Link>
-        <BotCard img={cw} name="CodeWarsStats" />
+        <Link to="/cw">
+          <BotCard img={cw} name="CodeWarsStats" />
+        </Link>
         <BotCard img={twitter} name="DiscordToTwitter" />
       </div>
     </div>
