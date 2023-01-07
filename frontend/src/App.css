@@ -53,7 +53,12 @@ h1 {
   background-color: var(--discord-black2);
   border-radius: 18px;
   box-shadow: 0 4px 6px var(--discord-black), 0 2px 4px var(--discord-black2);
-  transition: box-shadow 0.3s;
+  transition: box-shadow 0.2s;
+  transition: transform 0.2s;
+}
+
+.bot_card:hover {
+  transform: scale(1.05);
 }
 
 .bot_card:hover {
@@ -140,6 +145,10 @@ a {
     width: 35%;
   }
 
+  .blocDCTwitter {
+    width: 50%;
+  }
+
   .descriptions {
     margin: 0;
   }
@@ -157,5 +166,17 @@ a {
     justify-content: center;
     gap: 8rem;
     margin-top: 2rem;
+  }
+
+  @media screen and (min-width: 1400px) {
+    .blocDC {
+      width: 25%;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .blocDCTwitter {
+      width: 65%;
+    }
   }
 }

@@ -15,7 +15,9 @@ export default function BotsDiscord() {
         <Link to="/cw">
           <BotCard img={cw} name="CodeWarsStats" />
         </Link>
-        <BotCard img={twitter} name="DiscordToTwitter" />
+        <Link to="/discordToTwitter">
+          <BotCard img={twitter} name="DiscordToTwitter" />
+        </Link>
       </div>
     </div>
   );

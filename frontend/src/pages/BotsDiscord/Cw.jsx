@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
 import cw from "../../assets/img/cw.png";
 
-export default function BotsDiscordCw() {
+export default function BotDiscordCw() {
   return (
     <div className="global">
       <h1>Bot Discord CodeWarsStats</h1>

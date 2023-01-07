@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
 import bdm from "../../assets/img/bdm.png";
 
-export default function BotsDiscordBdm() {
+export default function BotDiscordBdm() {
   return (
     <div className="global">
       <h1>Bot Discord BDM</h1>
