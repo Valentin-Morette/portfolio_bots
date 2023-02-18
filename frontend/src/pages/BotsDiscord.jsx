@@ -3,6 +3,7 @@ import BotCard from "../components/BotCard";
 import twitter from "../assets/img/twitter.png";
 import cw from "../assets/img/cw.png";
 import bdm from "../assets/img/bdm.png";
+import awin from "../assets/img/awin.png";
 
 export default function BotsDiscord() {
   return (
@@ -16,7 +17,10 @@ export default function BotsDiscord() {
           <BotCard img={cw} name="CodeWarsStats" />
         </Link>
         <Link to="/discordToTwitter">
-          <BotCard img={twitter} name="DiscordToTwitter" />
+          <BotCard img={twitter} name="PublishTwitter" />
+        </Link>
+        <Link to="/awin">
+          <BotCard img={awin} name="AwinAffiliation" />
         </Link>
       </div>
     </div>

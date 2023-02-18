@@ -2,16 +2,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import discordToTwitter from "../../assets/img/twitter.png";
 
-export default function BotsDiscordCw() {
+export default function BotsDiscordPublishTwitter() {
   return (
     <div className="global">
-      <h1>Bot Discord DiscordToTwitter</h1>
+      <h1>PublishTwitter</h1>
       <img src={discordToTwitter} alt="BDM" className="imgTuto" />
       <div className="descAndCommandes">
         <div className="blocDC">
           <h3 className="descriptionsBots firstDesc">Description</h3>
           <p className="descriptions">
-            Le bot Discord DiscordToTwitter est un bot Discord qui me permet de
+            Le bot Discord PublishTwitter est un bot Discord qui me permet de
             tweeter sur mon compte Twitter depuis un canal spécifique sur
             Discord. Il vérifie également le nombre de caractères et nous
             indique de combien on dépasse la limite de Twitter. C'est un bot
@@ -29,7 +29,7 @@ export default function BotsDiscordCw() {
         </div>
       </div>
 
-      <h3 className="descriptionsBots">Twitter associé</h3>
+      <h3 className="titleInstal">Twitter associé</h3>
       <div className="iconsInstall">
         <a
           href="https://twitter.com/BiiiiipBooop"

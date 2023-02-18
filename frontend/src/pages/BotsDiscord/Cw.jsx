@@ -5,7 +5,7 @@ import cw from "../../assets/img/cw.png";
 export default function BotDiscordCw() {
   return (
     <div className="global">
-      <h1>Bot Discord CodeWarsStats</h1>
+      <h1>CodeWarsStats</h1>
       <img src={cw} alt="BDM" className="imgTuto" />
       <div className="descAndCommandes">
         <div className="blocDC">
@@ -28,7 +28,7 @@ export default function BotDiscordCw() {
         </div>
       </div>
 
-      <h3 className="descriptionsBots">Installation</h3>
+      <h3 className="titleInstal">Installation</h3>
       <div className="iconsInstall">
         <a
           href="https://discord.com/api/oauth2/authorize?client_id=1050710452595855430&permissions=2048&scope=bot"

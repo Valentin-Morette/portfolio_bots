@@ -5,6 +5,7 @@
   --discord-blue: #5865f2;
   --discord-white: #b3b4b6;
   --real-white: #ffffff;
+  /* #36393f */
 }
 
 @font-face {
@@ -41,10 +42,11 @@ h1 {
 .bot_list {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  margin-bottom: 3rem;
+  gap: 3rem;
+  margin: 0 2rem 3rem 2rem;
 }
 
 .bot_card {
@@ -91,15 +93,12 @@ a {
 
 .descriptionsBots {
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: 0 1rem 1rem 1rem;
 }
 
 .descriptions {
-  margin: 0 1rem 0 1.5rem;
-}
-
-.firstDesc {
-  margin-top: 2rem;
+  margin: 0 1.5rem 0 1.5rem;
+  text-align: justify;
 }
 
 .descAndCommandes {
@@ -123,10 +122,34 @@ a {
   font-size: 3.5rem;
 }
 
+.blocDC,
+.blocDCTwitter {
+  background-color: var(--discord-black2);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 6px var(--discord-black), 0 2px 4px var(--discord-white);
+  margin-top: 3rem;
+  padding: 0.8rem;
+  margin: 2rem 1rem 0 1rem;
+}
+
 .iconsInstall {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 1rem;
+}
+
+.titleInstal {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+@media screen and (min-width: 400px) {
+  .blocDC,
+  .blocDCTwitter {
+    margin: 2rem 1.5rem 0 1.5rem;
+    padding: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 650px) {
@@ -139,6 +162,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 1.5rem;
   }
 
   .blocDC {
@@ -154,7 +178,6 @@ a {
   }
 
   .descriptionsBots {
-    margin: 3rem 0 1rem 0;
     text-align: center;
   }
 

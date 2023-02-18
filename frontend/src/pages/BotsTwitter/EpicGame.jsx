@@ -2,10 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import epicgame from "../../assets/img/epicgame.png";
 
-export default function BotDiscordCw() {
+export default function BotTwitterEpicGames() {
   return (
     <div className="global">
-      <h1>Bot Twitter EpicGames</h1>
+      <h1>EpicGames</h1>
       <img src={epicgame} alt="epicgame" className="imgTuto" />
       <div className="descAndCommandes">
         <div className="blocDCTwitter">
@@ -22,7 +22,7 @@ export default function BotDiscordCw() {
           </p>
         </div>
       </div>
-      <h3 className="descriptionsBots">Twitter associé</h3>
+      <h3 className="titleInstal">Twitter associé</h3>
       <div className="iconsInstall">
         <a
           href="https://twitter.com/BiiiiipBooop"
