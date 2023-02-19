@@ -5,8 +5,8 @@ import BotsDiscord from "./pages/BotsDiscord";
 import BotsTwitter from "./pages/BotsTwitter";
 import BotDiscordBdm from "./pages/BotsDiscord/Bdm";
 import BotDiscordCw from "./pages/BotsDiscord/Cw";
-import BotDiscordToTwitter from "./pages/BotsDiscord/DiscordToTwitter";
-import BotDiscordAwinAffiliation from "./pages/BotsDiscord/awinAffiliation";
+import BotPublishTwitter from "./pages/BotsDiscord/PublishTwitter";
+import BotDiscordAwinAffiliation from "./pages/BotsDiscord/AwinAffiliation";
 import BotTwitterEpicGame from "./pages/BotsTwitter/EpicGame";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path="/bots/twitter" element={<BotsTwitter />} />+
         <Route path="/bdm" element={<BotDiscordBdm />} />
         <Route path="/cw" element={<BotDiscordCw />} />
-        <Route path="/discordToTwitter" element={<BotDiscordToTwitter />} />
+        <Route path="/publishTwitter" element={<BotPublishTwitter />} />
         <Route path="/epicgame" element={<BotTwitterEpicGame />} />
         <Route path="/awin" element={<BotDiscordAwinAffiliation />} />
       </Routes>
