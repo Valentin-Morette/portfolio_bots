@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import BotCard from "../components/BotCard";
-import epicgame from "../assets/img/epicgame.png";
+import cw from "../assets/img/cw.png";
 
-export default function BotsTwitter() {
+export default function ExtChrome() {
   return (
     <div className="global">
-      <h1>BotFolio Twitter</h1>
+      <h1>Portfolio Extensions Chrome</h1>
       <div className="bot_list">
-        <Link to="epicgame">
-          <BotCard img={epicgame} name="Epic Games" />
+        <Link to="cw">
+          <BotCard img={cw} name="CodeWars Stats" />
         </Link>
       </div>
     </div>

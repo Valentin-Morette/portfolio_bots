@@ -19,3 +19,8 @@ export const linksAwin = {
 export const linksTwitter = {
   biiiiipBooop: "https://twitter.com/BiiiiipBooop",
 };
+
+export const linksExtCw = {
+  linkGithub: "https://github.com/Valentin-Morette/chromeExt-CodeWarsStats",
+  linkChrome: "https://github.com/Valentin-Morette/chromeExt-CodeWarsStats",
+};

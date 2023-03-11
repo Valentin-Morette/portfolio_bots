@@ -1,8 +1,8 @@
 import epicgame from "../../assets/img/epicgame.png";
 import { descBotEpicGames } from "../../datas/DataDescBot";
-import { linksTwitter } from "../../datas/DataLinkInstall";
+// import { linksTwitter } from "../../datas/DataLinkInstall";
 import DescBot from "../../components/DescBot";
-import TwitterAssociate from "../../components/TwitterAssociate";
+// import TwitterAssociate from "../../components/TwitterAssociate";
 
 export default function BotTwitterEpicGames() {
   return (
@@ -10,9 +10,9 @@ export default function BotTwitterEpicGames() {
       <h1>EpicGames</h1>
       <img src={epicgame} alt="epicgame" className="imgTuto" />
       <div className="descAndCommandes">
-        <DescBot desc={descBotEpicGames} type="twitter" />
+        <DescBot desc={descBotEpicGames} type="noCommandes" />
       </div>
-      <TwitterAssociate linkTwitter={linksTwitter.biiiiipBooop} />
+      {/* <TwitterAssociate linkTwitter={linksTwitter.biiiiipBooop} /> */}
     </div>
   );
 }

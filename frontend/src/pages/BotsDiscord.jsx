@@ -10,16 +10,16 @@ export default function BotsDiscord() {
     <div className="global">
       <h1>BotFolio Discord</h1>
       <div className="bot_list">
-        <Link to="/bdm">
+        <Link to="bdm">
           <BotCard img={bdm} name="BDM" />
         </Link>
-        <Link to="/cw">
+        <Link to="cw">
           <BotCard img={cw} name="CodeWarsStats" />
         </Link>
-        <Link to="/publishTwitter">
+        <Link to="publishTwitter">
           <BotCard img={twitter} name="PublishTwitter" />
         </Link>
-        <Link to="/awin">
+        <Link to="awin">
           <BotCard img={awin} name="AwinAffiliation" />
         </Link>
       </div>
