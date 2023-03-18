@@ -22,5 +22,6 @@ export const linksTwitter = {
 
 export const linksExtCw = {
   linkGithub: "https://github.com/Valentin-Morette/chromeExt-CodeWarsStats",
-  linkChrome: "https://github.com/Valentin-Morette/chromeExt-CodeWarsStats",
+  linkChrome:
+    "https://chrome.google.com/webstore/detail/codewars-stats/hgkijebblcanpapihobhgacojbocnham?hl=fr",
 };
